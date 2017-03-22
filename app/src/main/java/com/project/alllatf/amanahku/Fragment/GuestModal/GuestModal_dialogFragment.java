@@ -1,4 +1,4 @@
-package id.amanahku.amanahku.Fragment.GuestModal;
+package com.project.alllatf.amanahku.Fragment.GuestModal;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -9,12 +9,13 @@ import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
 
+import com.project.alllatf.amanahku.Adapter.GuestModal.CustomExpandableListAdapter;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import id.amanahku.amanahku.Adapter.GuestModal.CustomExpandableListAdapter;
-import id.amanahku.amanahku.R;
+import com.project.alllatf.amanahku.R;
 
 /**
  * Created by fachrul on 3/21/17.

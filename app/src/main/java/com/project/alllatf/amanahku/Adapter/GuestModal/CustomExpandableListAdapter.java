@@ -1,4 +1,4 @@
-package id.amanahku.amanahku.Adapter.GuestModal;
+package com.project.alllatf.amanahku.Adapter.GuestModal;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -8,10 +8,11 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 
+import com.project.alllatf.amanahku.R;
+
 import java.util.HashMap;
 import java.util.List;
 
-import id.amanahku.amanahku.R;
 
 /**
  * Created by fachrul on 3/21/17.

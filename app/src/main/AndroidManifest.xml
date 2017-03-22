@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.amanahku.amanahku">
+    package="com.project.alllatf.amanahku">
 
     <application
         android:allowBackup="true"
