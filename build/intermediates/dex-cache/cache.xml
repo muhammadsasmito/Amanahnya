@@ -3,6 +3,15 @@
 
     <item
         is-multidex="false"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.1_e3ee87e899624ad588400ac02a5395f7bdf4c9ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -18,6 +27,51 @@
         revision="25.0.0"
         sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
         <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_84e463bfc52dbf4ed58253f72bbfac7525525c6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.1_de5eed592ae124e59848e3d190c865b3940b4d5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/Android/sdk-mac/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_f390864521f60e516f850afc3850e07fd4c626f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_86d30ce01dac388c637d9ffc259fc168dabb1e68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_ee5ade61ced858f6b8f8fcb33a9acdf49c9805f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_b4ee643b1ada36e5d13c1c6a124322bbeb91d573.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,21 +93,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Volumes/DATA/Android/sdk-mac/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_f390864521f60e516f850afc3850e07fd4c626f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_86d30ce01dac388c637d9ffc259fc168dabb1e68.jar" />
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.1_98cd60a62db6defdbb2aab336d969a3e285e13aa.jar" />
     </item>
     <item
         is-multidex="false"
@@ -81,24 +126,6 @@
         revision="25.0.0"
         sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
         <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_cfded7e5b51cf9529b7162e23b0ee5e96d6e1864.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_ee5ade61ced858f6b8f8fcb33a9acdf49c9805f8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_b4ee643b1ada36e5d13c1c6a124322bbeb91d573.jar" />
     </item>
     <item
         is-multidex="false"
