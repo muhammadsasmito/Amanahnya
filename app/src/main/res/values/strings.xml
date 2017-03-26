@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Amanahku</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pesanform_tgl_pesan">Tanggal pemesanan: </string>
+    <string name="pesanform_detail_jenis_barang">Jenis Barang: </string>
+    <string name="pesanform_detail_jumlah_barang">Jumlah Barang: </string>
+    <string name="pesanform_detail_harga_barang">Harga Barang: </string>
+    <string name="pesanform_total_harga_barang">Total Pembiayaan: </string>
+    <string name="pesanform_total_jumlah_barang">Total Jenis Barang: </string>
+    <string name="pesanform_spesifikasi_barang">Spesifikasi Barang:</string>
+    <string name="title_activity_pesan_form">Pemesanan Barang</string>
+
+
+    <string name="list_brg_kosong">Anda belum menambahkan barang. Silahkan tekan tombol tambah diatas.</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pesan_brg">Pesan Barang</string>
+    <string name="title_activity_tambah_brg">TambahBrg</string>
 </resources>

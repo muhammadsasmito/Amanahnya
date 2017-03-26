@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/ivPesanBrgGambar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvPesanBrgJudul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Nama Barang"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/tvPesanBrgHarga"
+                android:textSize="18dp"
+                android:text="1juta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tvPesanBrgJumlah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="5 "
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

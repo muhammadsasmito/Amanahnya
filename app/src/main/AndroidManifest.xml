@@ -15,6 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- <activity -->
+        <!-- android:name="com.project.alllatf.amanahku.PesanForm" -->
+        <!-- android:label="@string/title_activity_pesan_form" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+        <!-- <activity android:name="com.project.alllatf.amanahku.PesanForm"></activity> -->
+        <activity
+            android:name=".PesanBrg"
+            android:label="@string/title_activity_pesan_brg"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TambahBarang"
+            android:label="Tambah Barang" />
+        <activity
+            android:name=".TambahBrg"
+            android:label="@string/title_activity_tambah_brg"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
