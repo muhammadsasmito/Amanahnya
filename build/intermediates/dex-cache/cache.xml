@@ -75,6 +75,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.github.tibolte/agendacalendarview/1.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a3baf60e6ddbac328609ffaa8ee0f7aec23142b">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/com.github.tibolte-agendacalendarview-1.0.4_7b12563a5d8a7e38a4b8a6da85c8b4c6837b0906.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -129,12 +138,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/fachrul/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.16/bdc5ca010675cd9385bdd3a28cf53ee88164424f/rxjava-1.0.16.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bdc5ca010675cd9385bdd3a28cf53ee88164424f">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/rxjava-1.0.16_d9066313c89e2f238dc91351338ef1d16d46edfa.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Volumes/DATA/Android/sdk-mac/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
         <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_7589d7ebb6f6fa81d51f184fd9b1a2df04351856.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/exploded-aar/se.emilsjolander/stickylistheaders/2.5.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f0808c3f609d8fe93018a8108d5a3d7c9cb5458">
+        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/pre-dexed/debug/se.emilsjolander-stickylistheaders-2.5.2_989efd9bd0ca7100f30e24b82184778f4d0432b7.jar" />
     </item>
 
 </items>

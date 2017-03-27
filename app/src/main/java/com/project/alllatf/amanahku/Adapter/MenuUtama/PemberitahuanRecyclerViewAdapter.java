@@ -5,8 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
-import com.project.alllatf.amanahku.Fragment.MenuUtama.PemberitahuanFragment.OnListFragmentInteractionListener;
+import com.project.alllatf.amanahku.Fragment.OnFragmentInteractionListener;
 import com.project.alllatf.amanahku.Model.MenuUtama.PemberitahuanModel.PemberitahuanItem;
 import com.project.alllatf.amanahku.R;
 
@@ -14,15 +13,16 @@ import java.util.List;
 
 /**
  * {@link RecyclerView.Adapter} that can display a {@link PemberitahuanItem} and makes a call to the
- * specified {@link OnListFragmentInteractionListener}.
+ * specified {@link OnFragmentInteractionListener}.
  * TODO: Replace the implementation with code for your data type.
  */
 public class PemberitahuanRecyclerViewAdapter extends RecyclerView.Adapter<PemberitahuanRecyclerViewAdapter.ViewHolder> {
 
     private final List<PemberitahuanItem> mValues;
-    private final OnListFragmentInteractionListener mListener;
+    private final OnFragmentInteractionListener mListener;
+    private String TAG = "PemberitahuanRecycleViewAdapter";
 
-    public PemberitahuanRecyclerViewAdapter(List<PemberitahuanItem> items, OnListFragmentInteractionListener listener) {
+    public PemberitahuanRecyclerViewAdapter(List<PemberitahuanItem> items, OnFragmentInteractionListener listener) {
         mValues = items;
         mListener = listener;
     }
@@ -46,7 +46,7 @@ public class PemberitahuanRecyclerViewAdapter extends RecyclerView.Adapter<Pembe
                 if (null != mListener) {
                     // Notify the active callbacks interface (the activity, if the
                     // fragment is attached to one) that an item has been selected.
-                    mListener.onListFragmentInteraction(holder.mItem);
+                    mListener.onFragmentInteraction(TAG,holder.mItem);
                 }
             }
         });

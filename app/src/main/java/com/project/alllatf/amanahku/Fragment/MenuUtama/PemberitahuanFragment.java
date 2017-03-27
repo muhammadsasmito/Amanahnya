@@ -11,6 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.project.alllatf.amanahku.Adapter.MenuUtama.PemberitahuanRecyclerViewAdapter;
+import com.project.alllatf.amanahku.Fragment.OnFragmentInteractionListener;
 import com.project.alllatf.amanahku.R;
 import com.project.alllatf.amanahku.Model.MenuUtama.PemberitahuanModel;
 import com.project.alllatf.amanahku.Model.MenuUtama.PemberitahuanModel.PemberitahuanItem;
@@ -18,7 +19,7 @@ import com.project.alllatf.amanahku.Model.MenuUtama.PemberitahuanModel.Pemberita
 /**
  * A fragment representing a list of Items.
  * <p/>
- * Activities containing this fragment MUST implement the {@link OnListFragmentInteractionListener}
+ * Activities containing this fragment MUST implement the {@link OnFragmentInteractionListener}
  * interface.
  */
 public class PemberitahuanFragment extends Fragment {
@@ -27,7 +28,8 @@ public class PemberitahuanFragment extends Fragment {
     private static final String ARG_COLUMN_COUNT = "column-count";
     // TODO: Customize parameters
     private int mColumnCount = 1;
-    private OnListFragmentInteractionListener mListener;
+    private String TAG = "PemberitahuanFragment";
+    private OnFragmentInteractionListener mListener;
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -78,11 +80,11 @@ public class PemberitahuanFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof OnListFragmentInteractionListener) {
-            mListener = (OnListFragmentInteractionListener) context;
+        if (context instanceof OnFragmentInteractionListener) {
+            mListener = (OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
-                    + " must implement OnListFragmentInteractionListener");
+                    + " must implement OnFragmentInteractionListener");
         }
     }
 
@@ -102,8 +104,5 @@ public class PemberitahuanFragment extends Fragment {
      * "http://developer.android.com/training/basics/fragments/communicating.html"
      * >Communicating with Other Fragments</a> for more information.
      */
-    public interface OnListFragmentInteractionListener {
-        // TODO: Update argument type and name
-        void onListFragmentInteraction(PemberitahuanItem item);
-    }
+
 }

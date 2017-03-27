@@ -6,4 +6,7 @@
     <color name="colorGreen">#004D40</color>
     <color name="colorGrayBg">#EEEEEE</color>
     <color name="colorBorder">#BDBDBD</color>
+    <color name="orange_dark">#E65100</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue_dark">#0D47A1</color>
 </resources>

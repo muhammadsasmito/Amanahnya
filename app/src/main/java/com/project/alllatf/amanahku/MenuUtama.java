@@ -1,27 +1,31 @@
 package com.project.alllatf.amanahku;
 
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.github.tibolte.agendacalendarview.models.CalendarEvent;
+import com.github.tibolte.agendacalendarview.models.DayItem;
 import com.project.alllatf.amanahku.Fragment.MenuUtama.PemberitahuanFragment;
-import com.project.alllatf.amanahku.Fragment.MenuUtama.Pembiayaan;
+import com.project.alllatf.amanahku.Fragment.MenuUtama.PembiayaanFragment;
+import com.project.alllatf.amanahku.Fragment.MenuUtama.TimeLineFragment;
+import com.project.alllatf.amanahku.Fragment.OnFragmentInteractionListener;
 import com.project.alllatf.amanahku.Model.MenuUtama.PemberitahuanModel;
 
-public class MenuUtama extends AppCompatActivity implements PemberitahuanFragment.OnListFragmentInteractionListener {
+import java.util.Calendar;
+
+public class MenuUtama extends AppCompatActivity implements OnFragmentInteractionListener {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -89,9 +93,24 @@ public class MenuUtama extends AppCompatActivity implements PemberitahuanFragmen
     }
 
     @Override
-    public void onListFragmentInteraction(PemberitahuanModel.PemberitahuanItem item) {
+    public void onFragmentInteraction(String TAG, Object data) {
+        if (TAG.equals("PemberitahuanRecycleViewAdapter")){
+            PemberitahuanModel.PemberitahuanItem item = (PemberitahuanModel.PemberitahuanItem) data;
+            Toast.makeText(MenuUtama.this,"Di klik "+item.details,Toast.LENGTH_SHORT).show();
+        } else if (TAG.equals("TimeLineFragment")){
+            if (data instanceof CalendarEvent){
+                CalendarEvent item = (CalendarEvent) data;
+                Toast.makeText(MenuUtama.this,"Di klik "+item.getTitle(),Toast.LENGTH_SHORT).show();
+            } else if (data instanceof DayItem){
+                DayItem item = (DayItem) data;
+                Toast.makeText(MenuUtama.this,"Di klik "+item.getValue(),Toast.LENGTH_SHORT).show();
+            } else if (data instanceof Calendar){
+                Calendar item = (Calendar) data;
+                Toast.makeText(MenuUtama.this,"Di scroll ke"+item.getFirstDayOfWeek(),Toast.LENGTH_SHORT).show();
 
-        Toast.makeText(MenuUtama.this,"Di klik "+item.details,Toast.LENGTH_SHORT).show();
+
+            }
+        }
     }
 
 
@@ -119,14 +138,14 @@ public class MenuUtama extends AppCompatActivity implements PemberitahuanFragmen
             // Return a PlaceholderFragment (defined as a static inner class below).
             switch (position) {
                 case 0:
-                    return Pembiayaan.newInstance(position);
+                    return PembiayaanFragment.newInstance(position);
                 case 1:
                     return PemberitahuanFragment.newInstance(position);
                 case 2:
-                    return Pembiayaan.newInstance(position);
+                    return TimeLineFragment.newInstance("Param1","Param2");
             }
             return null;
-            //return Pembiayaan.newInstance(position + 1);
+            //return PembiayaanFragment.newInstance(position + 1);
         }
 
         @Override

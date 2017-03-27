@@ -9,7 +9,10 @@
         android:background="?attr/selectableItemBackground"
         android:gravity="center"
         android:textSize="14sp"
+        android:text="coba"
+        android:layout_gravity="center"
         android:textColor="#ffffff"
+        android:ellipsize="end"
         android:maxLines="1"
         />
 </LinearLayout>
