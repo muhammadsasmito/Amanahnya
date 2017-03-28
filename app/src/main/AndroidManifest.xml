@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="id.amanahku.amanahku">
+    package="com.project.alllatf.amanahku">
 
     <application
         android:allowBackup="true"
@@ -21,14 +21,14 @@
         <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
         <!-- <activity android:name="com.project.alllatf.amanahku.PesanForm"></activity> -->
         <activity
-            android:name=".PesanBrg"
+            android:name="com.project.alllatf.amanahku.PesanBrg"
             android:label="@string/title_activity_pesan_brg"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".TambahBarang"
+            android:name="com.project.alllatf.amanahku.TambahBarang"
             android:label="Tambah Barang" />
         <activity
-            android:name=".TambahBrg"
+            android:name="com.project.alllatf.amanahku.TambahBrg"
             android:label="@string/title_activity_tambah_brg"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

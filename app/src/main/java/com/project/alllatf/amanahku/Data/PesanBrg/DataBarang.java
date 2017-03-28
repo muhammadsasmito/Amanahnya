@@ -1,17 +1,12 @@
-package id.amanahku.amanahku.Data.PesanBrg;
+package com.project.alllatf.amanahku.Data.PesanBrg;
 
 /**
  * Created by User on 25/03/2017.
  */
 
-public class BarangForm_dataList {
+public class DataBarang {
     public String BarangFormJudul;
     public String BarangFormGambar;
     public String BarangFormJumlah;
     public Integer BarangFormHarga;
-
-    public void tambahObject(){
-
-
-    }
 }

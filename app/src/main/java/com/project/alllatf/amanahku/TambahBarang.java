@@ -1,4 +1,4 @@
-package id.amanahku.amanahku;
+package com.project.alllatf.amanahku;
 
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import id.amanahku.amanahku.Data.PesanBrg.BarangForm_dataList;
 
 public class TambahBarang extends AppCompatActivity{
 

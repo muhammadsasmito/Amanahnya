@@ -1,8 +1,6 @@
-package id.amanahku.amanahku.Adapter.PesanBrg;
+package com.project.alllatf.amanahku.Adapter.PesanBrg;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,27 +8,27 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.project.alllatf.amanahku.Data.PesanBrg.DataBarang;
+import com.project.alllatf.amanahku.R;
+
 import java.util.ArrayList;
 
-import id.amanahku.amanahku.Data.PesanBrg.BarangForm_dataList;
-import id.amanahku.amanahku.R;
 
 /**
  * Created by User on 25/03/2017.
  */
 
-public class CostumList_PesanBrg extends ArrayAdapter<BarangForm_dataList>{
+public class CostumList_PesanBrg extends ArrayAdapter<DataBarang>{
 
     Context context;
-    ArrayList<BarangForm_dataList> values;
+    ArrayList<DataBarang> values;
 
-    public CostumList_PesanBrg(Context context,ArrayList<BarangForm_dataList> values) {
+    public CostumList_PesanBrg(Context context,ArrayList<DataBarang> values) {
         super(context, R.layout.daftar_pesan_brg, values);
         this.context = context;
         this.values = values;
     }
 
-    @NonNull
     @Override
     public View getView(int position,  View convertView,  ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
