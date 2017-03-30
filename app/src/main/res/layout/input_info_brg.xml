@@ -54,6 +54,7 @@
             android:layout_height="wrap_content"
             />
         <EditText
+            android:inputType="numberDecimal"
             android:id="@+id/etHargaBarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,6 +67,7 @@
             android:layout_height="wrap_content"
             />
         <EditText
+            android:inputType="numberDecimal"
             android:id="@+id/etJumlahBarang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -7,6 +7,6 @@ package com.project.alllatf.amanahku.Data.PesanBrg;
 public class DataBarang {
     public String BarangFormJudul;
     public String BarangFormGambar;
-    public String BarangFormJumlah;
-    public Integer BarangFormHarga;
+    public int BarangFormJumlah;
+    public int BarangFormHarga;
 }

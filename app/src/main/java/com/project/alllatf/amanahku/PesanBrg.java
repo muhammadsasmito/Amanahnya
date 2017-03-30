@@ -6,6 +6,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -79,6 +80,7 @@ public class PesanBrg extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         /**
+         * Menambah Barang Baru
          * pindah ke aktivity baru untuk menambah barang baru yang ingin dipesan
          * sementara akan berupa menambah datadummy dengan new object tapi menggunakan arraylist nya barangList
          */
@@ -87,9 +89,29 @@ public class PesanBrg extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(PesanBrg.this,TambahBrg.class);
+                /** validasi saat set edittext untuk tambah atau edit */
+                i.putExtra("nav","add");
                 startActivity(i);
 //                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
 //                        .setAction("Action", null).show();
+            }
+        });
+
+
+        /**
+         * Edit dan lihat detail Barang lama
+         *
+         */
+        lvPesanan.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view,
+                                    int position, long id) {
+                DataBarang brg = (DataBarang) lvPesanan.getItemAtPosition(position);
+                Intent i = new Intent(PesanBrg.this,TambahBrg.class);
+                i.putExtra("JENIS",brg.BarangFormJudul);
+                i.putExtra("HARGA",brg.BarangFormHarga);
+                i.putExtra("JUMLAH",brg.BarangFormJumlah);
+                startActivity(i);
             }
         });
     }
@@ -106,10 +128,10 @@ public class PesanBrg extends AppCompatActivity {
         Intent i = getIntent();
         DataBarang barang = new DataBarang();
         barang.BarangFormJudul = i.getStringExtra("JENIS");
-        barang.BarangFormJumlah = i.getStringExtra("JUMLAH");
+        barang.BarangFormJumlah = i.getIntExtra("JUMLAH",0);
         barang.BarangFormGambar = null;
-        barang.BarangFormHarga = 0;
-        //barang.BarangFormHarga = Integer.valueOf(i.getStringExtra("HARGA"));
+        //barang.BarangFormHarga = 0;
+        barang.BarangFormHarga = i.getIntExtra("HARGA",0);
         totalHarga = totalHarga + barang.BarangFormHarga;
         barangList.add(barang);
 

@@ -39,7 +39,7 @@ public class CostumList_PesanBrg extends ArrayAdapter<DataBarang>{
         ImageView ivPesanBrgGambar = (ImageView) view.findViewById(R.id.ivPesanBrgGambar);
 
         tvPesanBrgJudul.setText(values.get(position).BarangFormJudul);
-        tvPesanBrgJumlah.setText(values.get(position).BarangFormJumlah);
+        tvPesanBrgJumlah.setText(values.get(position).BarangFormJumlah+"");
         tvPesanBrgHarga.setText(values.get(position).BarangFormHarga+"");
 
         return view;
