@@ -53,14 +53,18 @@ public class TambahBrg extends AppCompatActivity {
          * Validasi untuk kondisi edit atau add
          */
         Intent inten = getIntent();
-        if (inten.getStringExtra("nav") == "add"){
+        if (inten.getStringExtra("nav").equals("add")){
             etJenisBrg.setText("");
-            etHargaBrg.setText("");
-            etJumlahBrg.setText("");
-        }else if(inten.getStringExtra("nav") == "add"){
-            etJenisBrg.setText(inten.getStringExtra("JENIS"));
-            etHargaBrg.setText(inten.getStringExtra("HAGRA"));
-            etJumlahBrg.setText(inten.getStringExtra("JUMLAH"));
+            etHargaBrg.setText("0");
+            etJumlahBrg.setText("0");
+        }else if(inten.getStringExtra("nav").equals("edit")){
+            etJenisBrg.setText(inten.getStringExtra("EDJENIS"));
+            etHargaBrg.setText(inten.getStringExtra("EDHARGA"));
+            etJumlahBrg.setText(inten.getStringExtra("EDJUMLAH"));
+        }else{
+            etJenisBrg.setText(inten.getStringExtra("nav"));
+            etHargaBrg.setText("2");
+            etJumlahBrg.setText("3");
         }
 
 
@@ -104,8 +108,17 @@ public class TambahBrg extends AppCompatActivity {
 
                 Intent i = new Intent(TambahBrg.this,PesanBrg.class);
                 i.putExtra("JENIS",etJenisBrg.getText().toString());
-                i.putExtra("HARGA",Integer.parseInt(etHargaBrg.getText()+""));
-                i.putExtra("JUMLAH",Integer.parseInt(etJumlahBrg.getText()+""));
+                if (etHargaBrg.getText().toString().isEmpty()){
+                    i.putExtra("HARGA",0);
+                }else{
+                    i.putExtra("HARGA",Integer.parseInt(etHargaBrg.getText()+""));
+                }
+
+                if (etJumlahBrg.getText().toString().isEmpty()){
+                    i.putExtra("JUMLAH",0);
+                }else {
+                    i.putExtra("JUMLAH",Integer.parseInt(etJumlahBrg.getText()+""));
+                }
                 startActivity(i);
             }
         });

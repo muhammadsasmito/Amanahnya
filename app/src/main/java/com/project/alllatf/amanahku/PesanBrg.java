@@ -108,9 +108,10 @@ public class PesanBrg extends AppCompatActivity {
                                     int position, long id) {
                 DataBarang brg = (DataBarang) lvPesanan.getItemAtPosition(position);
                 Intent i = new Intent(PesanBrg.this,TambahBrg.class);
-                i.putExtra("JENIS",brg.BarangFormJudul);
-                i.putExtra("HARGA",brg.BarangFormHarga);
-                i.putExtra("JUMLAH",brg.BarangFormJumlah);
+                i.putExtra("nav","edit");
+                i.putExtra("EDJENIS",brg.BarangFormJudul);
+                i.putExtra("EDHARGA",brg.BarangFormHarga+"");
+                i.putExtra("EDJUMLAH",brg.BarangFormJumlah+"");
                 startActivity(i);
             }
         });
