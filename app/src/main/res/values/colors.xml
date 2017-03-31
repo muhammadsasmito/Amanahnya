@@ -16,4 +16,8 @@
     <color name="colorBlueLight">#2979ff</color>
     <color name="colorGreenLight">#8bc34a</color>
     <color name="colorGreenLighten">#a5d6a7</color>
+    <color name="colorBorder">#BDBDBD</color>
+    <color name="orange_dark">#E65100</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="blue_dark">#0D47A1</color>
 </resources>

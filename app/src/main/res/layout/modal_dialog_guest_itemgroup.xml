@@ -15,6 +15,6 @@
         android:id="@+id/tvDialogGuest_itemGroup"
         android:text="Persyaratan"
         android:textSize="20sp"
-        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
         android:paddingRight="?android:attr/expandableListPreferredItemIndicatorRight"/>
 </LinearLayout>

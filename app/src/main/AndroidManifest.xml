@@ -31,6 +31,12 @@
             android:name="com.project.alllatf.amanahku.TambahBrg"
             android:label="@string/title_activity_tambah_brg"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Register" />
+        <activity
+            android:name=".MenuUtama"
+            android:label="@string/title_activity_menu_utama"
+            android:theme="@style/AppTheme.WithActionBar"/>
+
     </application>
 
 </manifest>
