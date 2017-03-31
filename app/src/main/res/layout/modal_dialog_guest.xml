@@ -46,6 +46,7 @@
             android:background="@color/colorGrayBg"
             android:divider="@color/colorGreen"
             android:dividerHeight="0.5dp"
+            android:groupIndicator="@drawable/group_indicator"
             android:indicatorRight="?android:attr/expandableListPreferredItemIndicatorRight"></ExpandableListView>
 
     </LinearLayout>
@@ -57,6 +58,7 @@
         android:layout_weight="0">
         <Button
             android:layout_marginRight="10dp"
+            android:id="@+id/btRegister"
             android:layout_gravity="end"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
