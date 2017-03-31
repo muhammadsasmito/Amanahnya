@@ -3,48 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.16\bdc5ca010675cd9385bdd3a28cf53ee88164424f\rxjava-1.0.16.jar"
+        jar="C:\Users\User\.android\build-cache\6fc6ac8b63080f312d541643f79fd697b536b7ff\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="bdc5ca010675cd9385bdd3a28cf53ee88164424f">
-        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\rxjava-1.0.16_e258eb9712795889fcd6f65cb9971236b8217ecd.jar" />
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_2d3ff785660dd47de15e3e7da6669f0d7fcaba57.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\User\.android\build-cache\be830e70135be26894b65b161ca3323efb5b88d8\output\jars\classes.jar"
+        jar="C:\Users\User\.android\build-cache\cff15aff33e6e5ff9b4e770390f608f39a519486\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="1a3baf60e6ddbac328609ffaa8ee0f7aec23142b">
-        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_4e978298333d464ca7456e51e08c2c22066d5e39.jar" />
+        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_ffddfa90cf6fdfcb3bfd6ebf8f082326fec86fd3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\User\.android\build-cache\90c2b26d63edc9dc74c897c9785afe60bca48223\output\jars\classes.jar"
+        jar="C:\Users\User\.android\build-cache\b8d5f779d89c06e5b44a94d620f7861dde0585b4\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="9f0808c3f609d8fe93018a8108d5a3d7c9cb5458">
-        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_c1b7dae85b80e18ad0ebbc4e5a471870727d50db.jar" />
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_22f415b2e79ccbe7c6eae493a1ab367ce67d72cc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\User\.android\build-cache\ad85fdf6d670f77d21dde1046fb890efe7b43b63\output\jars\classes.jar"
+        jar="C:\Users\User\.android\build-cache\b972ac81b968f61d4ca45132723a4343a9a94f55\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_795ca66539c620051448ecd6eadcd23789f29f10.jar" />
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_6fc292fdec81f81d90305c0ff56ec9cbeed7fb54.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\User\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha7\constraint-layout-solver-1.0.0-alpha7.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_888dc6c70591458ee998c2926f41c5e65a528d54.jar" />
+        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-alpha7_8fdcfa3ff210832c35728c459f61a137b9079936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\5dbb64cb2fc2b8b483f84e023eab55e8c62a6f86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_14d57e84f5b470c06958908b509f814ec04ae9f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\cf5f4ab1653dc1ddacced396feb12ab8e95b6d29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_a9a23e7f03c8c1daca050dad82e3e7ee072b20bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\007889d1aec4a52e2505cea7febc8b503231fb49\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_52e70c681d2f56f0f441200055b93caac2b76ed8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\5a5b3c1a86ed66192d4883def26b816d7ecec04a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_f364470ca7788ac5e9685de0fecbadf75641ea77.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\90a32407275989f04ebf3d0f2f909de976773805\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_1c0c117902dd25c26404c7b2e4198f5b7c8eec82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\20b3ba249cfe72150d8b6b2ff3bb3044ec0e2992\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_efe34128073631f030712899ec46e6ada6a15989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\efbf1ca0181c444e37cc8727b541448c39c17421\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_e0f34c8949ed690ce7942c9d780ba3e14c2015f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\14aa4dff736ea58efd55454fc405b482ce904c1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_5b40d93bd7829b75e7865a4bd1ee44c22aa97247.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c63dbb7136554bfc9d853cd9e744cf83ff711804\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_1904ea8aa30205f4e8a08d00f3d6ae33a26f877f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_9c0ff5819f5c4d0641401fb8cacfd42146cf4954.jar" />
     </item>
 
 </items>
