@@ -50,7 +50,10 @@ public class PesanBrg extends AppCompatActivity {
          * data dummy new arrraylist dibuat global dengan cara prosedural yang akan dipakai untuk
          * method2 setelahnya pada tambah pesanan
          */
+
+        useBarangList();
         addDummyData();
+        DummyData();
 
 
         /**
@@ -76,8 +79,17 @@ public class PesanBrg extends AppCompatActivity {
         tvSumBrg.setText(totalHarga+"");
 
 
+        /** toolbar yang diatas */
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        toolbar.setNavigationIcon(R.drawable.ic_home_back);
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            }
+        });
 
         /**
          * Menambah Barang Baru
@@ -117,6 +129,30 @@ public class PesanBrg extends AppCompatActivity {
         });
     }
 
+    private void DummyData() {
+
+        DataBarang barang = new DataBarang();
+        barang.BarangFormJudul = "Mesin Cuci";
+        barang.BarangFormJumlah = 1;
+        barang.BarangFormGambar = null;
+        //barang.BarangFormHarga = 0;
+        barang.BarangFormHarga = 1000000;
+        totalHarga = totalHarga + barang.BarangFormHarga;
+        barangList.add(barang);
+
+        DataBarang baranga = new DataBarang();
+        baranga.BarangFormJudul = "Sepeda";
+        baranga.BarangFormJumlah = 2;
+        baranga.BarangFormGambar = null;
+        //barang.BarangFormHarga = 0;
+        baranga.BarangFormHarga = 500000;
+        totalHarga = totalHarga + baranga.BarangFormHarga;
+        barangList.add(baranga);
+
+        costumListAdapter = new CostumList_PesanBrg(this,barangList);
+        lvPesanan.setAdapter(costumListAdapter);
+    }
+
     public void useBarangList(){
         barangList = new ArrayList<>();
     }
@@ -125,7 +161,6 @@ public class PesanBrg extends AppCompatActivity {
         /**
          * dummy arraylist
          */
-        useBarangList();
         Intent i = getIntent();
         DataBarang barang = new DataBarang();
         barang.BarangFormJudul = i.getStringExtra("JENIS");
