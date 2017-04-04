@@ -2,67 +2,157 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Volumes/DATA/Android/sdk-mac/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_f390864521f60e516f850afc3850e07fd4c626f2/classes.dex" />
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_5332d3e34c73af542f3996cc40d38ffd44617327.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/fachrul/.android/build-cache/7ca3aea9c5e3bd1a08deb7447424fc85e46a31c5/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\9a3f8dcc322e276887d543898d6907b7a1b50a83\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="1a3baf60e6ddbac328609ffaa8ee0f7aec23142b">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10b754d042b290957869142d9ba2098c12b3df3b/classes.dex" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_ce0874dc7f5ffd47c4420520df38441e7a3a0cff.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\a8bdbc65735db65ef1a0cfda4c9771ae965c1bbc\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_61cc88f0bc310a40a44cc993adbfcff91cf51ad4/classes.dex" />
+        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_5aa1b9e03181303bdb71fee376431e9d40c0b935.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\f3a440b299ca89948e04779493463c7d5c484ce0\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="e45575b99eca4c24e2df1ccc22004e715933e381">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bfba04be77752cbebaaaf9f1cd2dd8860a75a459/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_6574aca20baf4b4e5ad5da28054a5fec1f4bcf84.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/fachrul/.android/build-cache/81795ce4df9ee96fbccaeb9a93dced67fba18890/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\d5bbf9d99e07d1159cecae10aa50d01c7c1a8c8a\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9cff7e99e14256b314f82b085557d634cea4b4de/classes.dex" />
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_ce394bab8ff94b793feef3dbe8d61efabfd641d5.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/fachrul/.android/build-cache/4bccfd3a595e79e403be020c23079b6979b0ffad/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\d7fe96beb21882b46d8a247ce24e9cbeba6f6287\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="9f0808c3f609d8fe93018a8108d5a3d7c9cb5458">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_151c2b00b8561e5c09e5a0883931059750d92ba0/classes.dex" />
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_9357ef59c5d9a5d2e1f60a962d32251915cf66ed.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/fachrul/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.16/bdc5ca010675cd9385bdd3a28cf53ee88164424f/rxjava-1.0.16.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\08ce1ecb3fd746477e794c16f959acbcdf9e1c08\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="bdc5ca010675cd9385bdd3a28cf53ee88164424f">
-        <dex dex="/Volumes/DATA/Android/Projects/Amanahnya/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.0.16_d9066313c89e2f238dc91351338ef1d16d46edfa/classes.dex" />
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_d11910635fa50b745ec18fae027f3aa89d664331.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\97279d4b56fd3a038ff206d3572572dc1c593048\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_fb5f3015b4ea19f7fa8d4a680b200959889dac59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\34d4058d44c9391a1589fd487551f0fac8df97a4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_3047eebfc01d82c7be14d432aae292ba6498ef92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\fab8459d51d55ce63f31e008c5e9d690ae512023\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_65c68c2d3f70f9dad7269413a6aaa842fd63613a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\68e34c08e9429721c1b80052df68ce57a05b1a62\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_58a24d53f10fd7f7353e834360eb7eccd81f7cf0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\6946f95628c6d55d460b662840e935c17ecd6dc9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e1d4f309b061ce555487d6ed5d5c66219ed4fa1a">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_b535bf2a78d6dc7acbeab13616673b3184351743.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\220b5c1a95c999a5b2282129f1048aecbfade64d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_128fe0ae0460e32d241adf3a060827afb0ff2f11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\0aa1c0bb16b06e8310df5c7cf0926f2eb1441171\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_ad306f6d4cfc510be11e93c896458beba37f959b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.3.0\baseLibrary-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cf0b6ab1d94f770655f81657b93fce2ba4cd331d">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\baseLibrary-2.3.0_8bc1fbcf84609ef9b8063719782059b0471af2cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\f74e2fba8117fb9083476f6f1cc46478cd60f392\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_e4e08d6c6eadd0c164a5a0accc7c597a16a37859.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\dc5e2741c7f3739fcb276e112246b98b922c7592\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="D:\Documents\2. Projek\Android\Amanahku\app\build\intermediates\pre-dexed\debug\classes_b3c22d12c9d0a6ea070f05c6f516b21592ce8d29.jar" />
     </item>
 
 </items>

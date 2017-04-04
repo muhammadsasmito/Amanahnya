@@ -21,25 +21,28 @@
         <activity
             android:name=".MenuUtama"
             android:label="@string/title_activity_menu_utama"
-            android:theme="@style/AppTheme.WithActionBar" >
-
-        </activity>
+            android:theme="@style/AppTheme.WithActionBar"></activity>
         <activity
             android:name=".DetailPesanan"
             android:label="@string/title_activity_detail_pesanan"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".StatusPesanan"
+            android:label="Status Pesanan" />
+        <activity
+            android:name=".TemuiAkad"
+            android:label="Akad" />
+        <activity android:name=".IntroSlider"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StatusPesanan"
-            android:label="Status Pesanan"
-            />
-        <activity android:name=".TemuiAkad"
-            android:label="Akad"
-            ></activity>
     </application>
 
 </manifest>

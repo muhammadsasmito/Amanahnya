@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import com.project.alllatf.amanahku.IntroSlider;
 import com.project.alllatf.amanahku.MenuUtama;
 import com.project.alllatf.amanahku.R;
 import com.project.alllatf.amanahku.Register;
@@ -100,7 +101,7 @@ public class GuestModal_dialogFragment extends android.app.DialogFragment {
         btTutup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), MenuUtama.class);
+                Intent intent = new Intent(getActivity(), IntroSlider.class);
                 startActivity(intent);
             }
         });
