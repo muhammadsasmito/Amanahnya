@@ -74,6 +74,7 @@ public class PemberitahuanFragment extends Fragment {
                 recyclerView.setLayoutManager(new GridLayoutManager(context, mColumnCount));
             }
             recyclerView.setAdapter(new PemberitahuanRecyclerViewAdapter(PemberitahuanModel.ITEMS, mListener));
+
         }
 
 

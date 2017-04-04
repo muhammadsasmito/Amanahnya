@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import com.project.alllatf.amanahku.MenuUtama;
 import com.project.alllatf.amanahku.R;
 import com.project.alllatf.amanahku.Register;
 
@@ -42,7 +43,8 @@ public class GuestModal_dialogFragment extends android.app.DialogFragment {
         getActivity().getWindowManager().getDefaultDisplay().getMetrics(metrics);
         int width = metrics.widthPixels;
 
-        Button btRegister = (Button) view.findViewById(R.id.btRegister);
+//        Button btRegister = (Button) view.findViewById(R.id.btRegister);
+        Button btTutup = (Button) view.findViewById(R.id.btTutup);
 
         expandableListView = (ExpandableListView) view.findViewById(R.id.lvExp);
         expandableListDetail = GuestModal_dataList.getData();
@@ -87,10 +89,18 @@ public class GuestModal_dialogFragment extends android.app.DialogFragment {
         });
 
         //listener klik tombol register
-        btRegister.setOnClickListener(new View.OnClickListener() {
+//        btRegister.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getActivity(), Register.class);
+//                startActivity(intent);
+//            }
+//        });
+
+        btTutup.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), Register.class);
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), MenuUtama.class);
                 startActivity(intent);
             }
         });

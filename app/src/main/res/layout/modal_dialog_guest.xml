@@ -58,10 +58,10 @@
         android:layout_weight="0">
         <Button
             android:layout_marginRight="10dp"
-            android:id="@+id/btRegister"
+            android:id="@+id/btTutup"
             android:layout_gravity="end"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Registrasi"/>
+            android:text="Tutup"/>
     </LinearLayout>
 </LinearLayout>
