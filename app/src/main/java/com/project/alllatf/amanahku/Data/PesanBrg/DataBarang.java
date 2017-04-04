@@ -9,4 +9,11 @@ public class DataBarang {
     public String BarangFormGambar;
     public int BarangFormJumlah;
     public int BarangFormHarga;
+
+    public DataBarang() {
+    }
+
+    public DataBarang(String barangFormJudul) {
+        BarangFormJudul = barangFormJudul;
+    }
 }

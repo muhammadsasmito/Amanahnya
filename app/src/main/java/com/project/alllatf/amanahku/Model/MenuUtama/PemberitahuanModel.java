@@ -1,5 +1,10 @@
 package com.project.alllatf.amanahku.Model.MenuUtama;
 
+import android.content.Intent;
+
+import com.project.alllatf.amanahku.DetailPesanan;
+import com.project.alllatf.amanahku.Fragment.MenuUtama.PemberitahuanFragment;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -23,22 +28,23 @@ public class PemberitahuanModel {
      */
     public static final Map<String, PemberitahuanItem> ITEM_MAP = new HashMap<String, PemberitahuanItem>();
 
-    private static final int COUNT = 25;
+    private static final int COUNT = 3;
 
     static {
         // Add some sample items.
         for (int i = 1; i <= COUNT; i++) {
             addItem(createDummyItem(i));
         }
-    }
 
+
+    }
     private static void addItem(PemberitahuanItem item) {
         ITEMS.add(item);
         ITEM_MAP.put(item.id, item);
     }
 
     private static PemberitahuanItem createDummyItem(int position) {
-        return new PemberitahuanItem(String.valueOf(position), "Item " + position, makeDetails(position));
+        return new PemberitahuanItem(String.valueOf(position), "Item " + position, makeDetails(position),"BELUM");
     }
 
     private static String makeDetails(int position) {
@@ -47,6 +53,7 @@ public class PemberitahuanModel {
         for (int i = 0; i < position; i++) {
             builder.append("\nMore details information here.");
         }
+
         return builder.toString();
     }
 
@@ -57,11 +64,13 @@ public class PemberitahuanModel {
         public final String id;
         public final String content;
         public final String details;
+        public final String status;
 
-        public PemberitahuanItem(String id, String content, String details) {
+        public PemberitahuanItem(String id, String content, String details, String status) {
             this.id = id;
             this.content = content;
             this.details = details;
+            this.status = status;
         }
 
         @Override

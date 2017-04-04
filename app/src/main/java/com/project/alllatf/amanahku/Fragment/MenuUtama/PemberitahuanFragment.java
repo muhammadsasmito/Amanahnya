@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.project.alllatf.amanahku.Adapter.MenuUtama.PemberitahuanRecyclerViewAdapter;
 import com.project.alllatf.amanahku.Fragment.OnFragmentInteractionListener;
@@ -30,6 +31,7 @@ public class PemberitahuanFragment extends Fragment {
     private int mColumnCount = 1;
     private String TAG = "PemberitahuanFragment";
     private OnFragmentInteractionListener mListener;
+
 
     /**
      * Mandatory empty constructor for the fragment manager to instantiate the
@@ -73,6 +75,9 @@ public class PemberitahuanFragment extends Fragment {
             }
             recyclerView.setAdapter(new PemberitahuanRecyclerViewAdapter(PemberitahuanModel.ITEMS, mListener));
         }
+
+
+
         return view;
     }
 

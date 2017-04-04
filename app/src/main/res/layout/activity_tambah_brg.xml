@@ -7,6 +7,10 @@
     android:fitsSystemWindows="true"
     tools:context="com.project.alllatf.amanahku.TambahBrg">
 
+    <include layout="@layout/content_tambah_brg" />
+
+
+
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
@@ -15,28 +19,26 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <!--<android.support.v7.widget.Toolbar-->
-            <!--android:id="@+id/tbPesan"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="?attr/actionBarSize"-->
-            <!--app:layout_collapseMode="pin"-->
-            <!--app:popupTheme="@style/AppTheme.PopupOverlay" />-->
+        <!--android:id="@+id/tbPesan"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--app:layout_collapseMode="pin"-->
+        <!--app:popupTheme="@style/AppTheme.PopupOverlay" />-->
 
         <include layout="@layout/input_info_brg" />
 
         <!--<android.support.design.widget.CollapsingToolbarLayout-->
-            <!--android:id="@+id/toolbar_layout"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="match_parent"-->
-            <!--android:fitsSystemWindows="true"-->
-            <!--app:contentScrim="?attr/colorPrimary"-->
-            <!--app:layout_scrollFlags="scroll|exitUntilCollapsed">-->
+        <!--android:id="@+id/toolbar_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--app:contentScrim="?attr/colorPrimary"-->
+        <!--app:layout_scrollFlags="scroll|exitUntilCollapsed">-->
 
-            <!---->
+        <!---->
 
         <!--</android.support.design.widget.CollapsingToolbarLayout>-->
     </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_tambah_brg" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fabAddBrg"
@@ -44,7 +46,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@id/app_bar"
-        app:layout_anchorGravity="bottom|right"
+        app:layout_anchorGravity="bottom|end"
         android:src="@drawable/ic_add"/>
-
 </android.support.design.widget.CoordinatorLayout>

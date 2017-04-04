@@ -14,6 +14,7 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.project.alllatf.amanahku.Adapter.TambahBarang.CostumList_Spek;
 import com.project.alllatf.amanahku.Data.PesanBrg.DataSpesifikasi;
@@ -29,6 +30,7 @@ public class TambahBrg extends AppCompatActivity {
     ListView lvSpek;
 
     ImageButton ibtnTambahBrg;
+    ImageButton ibtnBackBrg;
     EditText etJenisBrg;
     EditText etHargaBrg;
     EditText etJumlahBrg;
@@ -42,9 +44,12 @@ public class TambahBrg extends AppCompatActivity {
 
         lvSpek = (ListView) findViewById(R.id.lvSpek);
         ibtnTambahBrg = (ImageButton) findViewById(R.id.ibtnTambahBrg);
+        ibtnBackBrg = (ImageButton) findViewById(R.id.ibtnBackBrg);
         etJenisBrg = (EditText) findViewById(R.id.etJenisBarang);
         etHargaBrg = (EditText) findViewById(R.id.etHargaBarang);
         etJumlahBrg = (EditText) findViewById(R.id.etJumlahBarang);
+        TextView tvJudulBarang = (TextView) findViewById(R.id.tvJudulBarang);
+
 
         etJenisSpek = (EditText) findViewById(R.id.etJenisSpek);
         etDetailSpek = (EditText) findViewById(R.id.etDetailSpek);
@@ -58,6 +63,7 @@ public class TambahBrg extends AppCompatActivity {
             etHargaBrg.setText("0");
             etJumlahBrg.setText("0");
         }else if(inten.getStringExtra("nav").equals("edit")){
+            tvJudulBarang.setText(inten.getStringExtra("EDJUDUL"));
             etJenisBrg.setText(inten.getStringExtra("EDJENIS"));
             etHargaBrg.setText(inten.getStringExtra("EDHARGA"));
             etJumlahBrg.setText(inten.getStringExtra("EDJUMLAH"));
@@ -120,6 +126,19 @@ public class TambahBrg extends AppCompatActivity {
                     i.putExtra("JUMLAH",Integer.parseInt(etJumlahBrg.getText()+""));
                 }
                 startActivity(i);
+            }
+        });
+
+
+        ibtnBackBrg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+//                Intent i = new Intent(TambahBrg.this,PesanBrg.class);
+//                i.putExtra("JENIS","");
+//                i.putExtra("HARGA",0);
+//                i.putExtra("JUMLAH",0);
+//                startActivity(i);
             }
         });
 

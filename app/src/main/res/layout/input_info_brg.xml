@@ -7,77 +7,90 @@
     <RelativeLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:paddingLeft="16dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
         >
+        <ImageButton
+            android:id="@+id/ibtnBackBrg"
+            android:layout_gravity="start"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/ic_back_mini"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
         <TextView
-            android:layout_marginTop="16dp"
+            android:id="@+id/tvJudulBarang"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/ibtnBackBrg"
+            android:maxEms="8"
+            android:padding="6dp"
             android:textStyle="bold"
             android:textSize="20sp"
             android:text="Pesan Pembiayaan Barang"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-
         <ImageButton
-            android:id="@+id/ibtnTambahBrg"
             android:layout_alignParentRight="true"
-            android:layout_gravity="end"
+            android:id="@+id/ibtnTambahBrg"
+            android:layout_gravity="right"
             android:background="@color/colorPrimaryDark"
             android:src="@drawable/ic_done_mini"
-            android:layout_width="50dp"
-            android:layout_height="match_parent" />
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
     </RelativeLayout>
 
 
     <LinearLayout
-        android:padding="16dp"
+        android:padding="10dp"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
-            android:textSize="20sp"
-            android:text="@string/pesanform_detail_jenis_barang"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-        <EditText
-            android:id="@+id/etJenisBarang"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"/>
 
-        <TextView
-            android:textSize="20sp"
-            android:text="@string/pesanform_detail_harga_barang"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
-        <EditText
-            android:inputType="numberDecimal"
-            android:id="@+id/etHargaBarang"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"/>
+            android:id="@+id/tilJenisBarang">
+            <EditText
+                android:id="@+id/etJenisBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pesanform_detail_jenis_barang"/>
+        </android.support.design.widget.TextInputLayout>
 
-        <TextView
-            android:textSize="20sp"
-            android:text="@string/pesanform_detail_jumlah_barang"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            />
-        <EditText
-            android:inputType="numberDecimal"
-            android:id="@+id/etJumlahBarang"
+            android:layout_marginTop="10dp"
+            android:id="@+id/tilHargaBarang">
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/etHargaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pesanform_detail_harga_barang"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="15dp"/>
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tilJumlahBarang">
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/etJumlahBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/pesanform_detail_jumlah_barang"/>
+        </android.support.design.widget.TextInputLayout>
 
         <TextView
             android:textStyle="bold"
             android:textSize="20sp"
             android:text="Spesifikasi Barang"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
 
