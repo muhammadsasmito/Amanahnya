@@ -118,7 +118,7 @@ public class TimeLineFragment extends Fragment {
         Calendar startTime1 = Calendar.getInstance();
         Calendar endTime1 = Calendar.getInstance();
         endTime1.add(Calendar.MONTH, 1);
-        BaseCalendarEvent event1 = new BaseCalendarEvent("Thibault travels in Iceland", "A wonderful journey!", "Iceland",
+        BaseCalendarEvent event1 = new BaseCalendarEvent("Pesan Barang", "A wonderful journey!", "Iceland",
                 ContextCompat.getColor(this.getContext(), R.color.orange_dark), startTime1, endTime1, true);
         eventList.add(event1);
 
@@ -126,7 +126,7 @@ public class TimeLineFragment extends Fragment {
         startTime2.add(Calendar.DAY_OF_YEAR, 1);
         Calendar endTime2 = Calendar.getInstance();
         endTime2.add(Calendar.DAY_OF_YEAR, 3);
-        BaseCalendarEvent event2 = new BaseCalendarEvent("Visit to Dalvík", "A beautiful small town", "Dalvík",
+        BaseCalendarEvent event2 = new BaseCalendarEvent("Akad", "A beautiful small town", "Dalvík",
                 ContextCompat.getColor(this.getContext(), R.color.yellow), startTime2, endTime2, true);
         eventList.add(event2);
 
@@ -137,7 +137,7 @@ public class TimeLineFragment extends Fragment {
         startTime3.set(Calendar.MINUTE, 0);
         endTime3.set(Calendar.HOUR_OF_DAY, 15);
         endTime3.set(Calendar.MINUTE, 0);
-        BaseCalendarEvent event3 = new BaseCalendarEvent("Visit of Harpa", "", "Dalvík",
+        BaseCalendarEvent event3 = new BaseCalendarEvent("Pembayaran ke-1", "", "Dalvík",
                 ContextCompat.getColor(this.getContext(), R.color.blue_dark), startTime3, endTime3, false);
         eventList.add(event3);
     }

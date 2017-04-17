@@ -72,18 +72,17 @@ public class IntroSlider extends AppCompatActivity {
             }
         });
 
-//        btnGuest.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(IntroSlider.this,MenuUtama.class);
-//                startActivity(i);
-//            }
-//        });
-//
+        btnGuest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+////
 //        btnRegister.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
-//                Intent i = new Intent(IntroSlider.this,Register.class);
+//                Intent i = new Intent(getApplicationContext(),Register.class);
 //                startActivity(i);
 //            }
 //        });

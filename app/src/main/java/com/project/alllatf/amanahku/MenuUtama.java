@@ -1,6 +1,8 @@
 package com.project.alllatf.amanahku;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -66,6 +68,15 @@ public class MenuUtama extends AppCompatActivity implements OnFragmentInteractio
             tab.setCustomView(mSectionsPagerAdapter.getTabView(i));
         }
 
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fabPesanBrg);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MenuUtama.this,PesanBrg.class);
+                startActivity(i);
+            }
+        });
+
 
     }
 
@@ -120,7 +131,7 @@ public class MenuUtama extends AppCompatActivity implements OnFragmentInteractio
      */
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
-        String[] tabTitles = new String[] {"Pembiayaan","Pemberitahuan", "Lini Waktu"};
+        String[] tabTitles = new String[] {"Pemberitahuan", "Lini Waktu"};
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
@@ -138,10 +149,8 @@ public class MenuUtama extends AppCompatActivity implements OnFragmentInteractio
             // Return a PlaceholderFragment (defined as a static inner class below).
             switch (position) {
                 case 0:
-                    return PembiayaanFragment.newInstance(position);
-                case 1:
                     return PemberitahuanFragment.newInstance(position);
-                case 2:
+                case 1:
                     return TimeLineFragment.newInstance("Param1","Param2");
             }
             return null;

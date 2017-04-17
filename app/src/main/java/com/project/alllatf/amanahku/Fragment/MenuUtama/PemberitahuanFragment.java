@@ -1,7 +1,9 @@
 package com.project.alllatf.amanahku.Fragment.MenuUtama;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,6 +15,8 @@ import android.widget.ListView;
 
 import com.project.alllatf.amanahku.Adapter.MenuUtama.PemberitahuanRecyclerViewAdapter;
 import com.project.alllatf.amanahku.Fragment.OnFragmentInteractionListener;
+import com.project.alllatf.amanahku.MainActivity;
+import com.project.alllatf.amanahku.PesanBrg;
 import com.project.alllatf.amanahku.R;
 import com.project.alllatf.amanahku.Model.MenuUtama.PemberitahuanModel;
 import com.project.alllatf.amanahku.Model.MenuUtama.PemberitahuanModel.PemberitahuanItem;
@@ -76,6 +80,7 @@ public class PemberitahuanFragment extends Fragment {
             recyclerView.setAdapter(new PemberitahuanRecyclerViewAdapter(PemberitahuanModel.ITEMS, mListener));
 
         }
+
 
 
 
